@@ -584,31 +584,31 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
 
     public static final Block STAINED_STONE_LIGHT_15 = registerBlock("stained_stone_light_15",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_LIGHT_15).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_LIGHT_30 = registerBlock("stained_stone_light_30",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_LIGHT_30).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_15 = registerBlock("stained_stone_dark_15",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_15).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_30 = registerBlock("stained_stone_dark_30",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_30).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_45 = registerBlock("stained_stone_dark_45",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_45).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_60 = registerBlock("stained_stone_dark_60",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_60).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_75 = registerBlock("stained_stone_dark_75",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_75).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_90 = registerBlock("stained_stone_dark_90",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_90).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
     public static final Block STAINED_STONE_DARK_105 = registerBlock("stained_stone_dark_105",
-            new Block(FabricBlockSettings.copyOf(ModBlocks.STAINED_STONE_DARK_105).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
