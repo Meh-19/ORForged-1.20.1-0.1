@@ -302,5 +302,16 @@
   "block.orforged.pink_fungal_button": "Pink Fungal Button",
   "block.orforged.pink_fungal_pressure_plate": "Pink Fungal Pressure Plate",
   "block.orforged.pink_fungal_fence": "Pink Fungal Fence",
-  "block.orforged.pink_fungal_fence_gate": "Pink Fungal Fence Gate"
+  "block.orforged.pink_fungal_fence_gate": "Pink Fungal Fence Gate",
+
+  "block.orforged.stained_stone_light_15": "Stone",
+  "block.orforged.stained_stone_light_30": "Stone",
+  "block.orforged.stained_stone_dark_15": "Stone",
+  "block.orforged.stained_stone_dark_30": "Stone",
+  "block.orforged.stained_stone_dark_45": "Stone",
+  "block.orforged.stained_stone_dark_60": "Stone",
+  "block.orforged.stained_stone_dark_75": "Stone",
+  "block.orforged.stained_stone_dark_90": "Stone",
+  "block.orforged.stained_stone_dark_105": "Stone"
+
 }
