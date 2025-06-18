@@ -28,6 +28,7 @@ public class ModItems {
     public static final Item PLATINUM_HOE = registerItem("platinum_hoe",
             new HoeItem(ModToolMaterial.PLATINUM, 3, 2f, new FabricItemSettings()));
 
+
     public static final Item PLATINUM_HELMET = registerItem("platinum_helmet",
             new ArmorItem(ModArmorMaterials.PLATINUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PLATINUM_CHESTPLATE = registerItem("platinum_chestplate",

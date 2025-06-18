@@ -57,6 +57,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_BUTTON);
                         entries.add(ModBlocks.VERTICAL_MAPLE_PLANKS);
                         entries.add(ModBlocks.MAPLE_PLANKS_CARVED);
+                        entries.add(ModBlocks.MAPLE_PAPER_LANTERN);
                         entries.add(ModBlocks.MAPLE_BEAM);
                         entries.add(ModBlocks.ORANGE_MAPLE_LEAVES);
                         entries.add(ModBlocks.RED_MAPLE_LEAVES);
@@ -74,6 +75,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLEAK_BUTTON);
                         entries.add(ModBlocks.VERTICAL_BLEAK_PLANKS);
                         entries.add(ModBlocks.BLEAK_PLANKS_CARVED);
+                        entries.add(ModBlocks.BLEAK_PAPER_LANTERN);
                         entries.add(ModBlocks.BLEAK_BEAM);
                         entries.add(ModBlocks.BLEAK_LEAVES);
 
@@ -90,6 +92,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIR_BUTTON);
                         entries.add(ModBlocks.VERTICAL_FIR_PLANKS);
                         entries.add(ModBlocks.FIR_PLANKS_CARVED);
+                        entries.add(ModBlocks.FIR_PAPER_LANTERN);
                         entries.add(ModBlocks.FIR_BEAM);
                         entries.add(ModBlocks.GREEN_FIR_LEAVES);
                         entries.add(ModBlocks.ORANGE_FIR_LEAVES);
@@ -107,6 +110,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_BUTTON);
                         entries.add(ModBlocks.VERTICAL_PALM_PLANKS);
                         entries.add(ModBlocks.PALM_PLANKS_CARVED);
+                        entries.add(ModBlocks.PALM_PAPER_LANTERN);
                         entries.add(ModBlocks.PALM_BEAM);
                         entries.add(ModBlocks.PALM_CROWN);
                         entries.add(ModBlocks.PALM_LEAVES);
@@ -124,6 +128,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BAYOU_BUTTON);
                         entries.add(ModBlocks.VERTICAL_BAYOU_PLANKS);
                         entries.add(ModBlocks.BAYOU_PLANKS_CARVED);
+                        entries.add(ModBlocks.BAYOU_PAPER_LANTERN);
                         entries.add(ModBlocks.BAYOU_BEAM);
                         entries.add(ModBlocks.BAYOU_LEAVES);
 
@@ -140,6 +145,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WISTERIA_BUTTON);
                         entries.add(ModBlocks.VERTICAL_WISTERIA_PLANKS);
                         entries.add(ModBlocks.WISTERIA_PLANKS_CARVED);
+                        entries.add(ModBlocks.WISTERIA_PAPER_LANTERN);
                         entries.add(ModBlocks.WISTERIA_BEAM);
                         entries.add(ModBlocks.WISTERIA_LEAVES);
                         entries.add(ModBlocks.WISTERIA_FLOWERS_BLUE);
@@ -160,6 +166,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BAOBAB_BUTTON);
                         entries.add(ModBlocks.VERTICAL_BAOBAB_PLANKS);
                         entries.add(ModBlocks.BAOBAB_PLANKS_CARVED);
+                        entries.add(ModBlocks.BAOBAB_PAPER_LANTERN);
                         entries.add(ModBlocks.BAOBAB_BEAM);
                         entries.add(ModBlocks.BAOBAB_LEAVES);
 
@@ -172,6 +179,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FUNGAL_BUTTON);
                         entries.add(ModBlocks.VERTICAL_FUNGAL_PLANKS);
                         entries.add(ModBlocks.FUNGAL_PLANKS_CARVED);
+                        entries.add(ModBlocks.FUNGAL_PAPER_LANTERN);
 // Planks
                         entries.add(ModBlocks.WHITE_FUNGAL_PLANKS);
                         entries.add(ModBlocks.LIGHT_GRAY_FUNGAL_PLANKS);
@@ -299,15 +307,57 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_FUNGAL_BUTTON);
 
                         entries.add(ModBlocks.OAK_BEAM);
+                        entries.add(ModBlocks.VERTICAL_OAK_PLANKS);
+                        entries.add(ModBlocks.OAK_PLANKS_CARVED);
+                        entries.add(ModBlocks.OAK_PAPER_LANTERN);
+
                         entries.add(ModBlocks.SPRUCE_BEAM);
+                        entries.add(ModBlocks.VERTICAL_SPRUCE_PLANKS);
+                        entries.add(ModBlocks.SPRUCE_PLANKS_CARVED);
+                        entries.add(ModBlocks.SPRUCE_PAPER_LANTERN);
+
                         entries.add(ModBlocks.BIRCH_BEAM);
+                        entries.add(ModBlocks.VERTICAL_BIRCH_PLANKS);
+                        entries.add(ModBlocks.BIRCH_PLANKS_CARVED);
+                        entries.add(ModBlocks.BIRCH_PAPER_LANTERN);
+
                         entries.add(ModBlocks.JUNGLE_BEAM);
+                        entries.add(ModBlocks.VERTICAL_JUNGLE_PLANKS);
+                        entries.add(ModBlocks.JUNGLE_PLANKS_CARVED);
+                        entries.add(ModBlocks.JUNGLE_PAPER_LANTERN);
+
                         entries.add(ModBlocks.ACACIA_BEAM);
+                        entries.add(ModBlocks.VERTICAL_ACACIA_PLANKS);
+                        entries.add(ModBlocks.ACACIA_PLANKS_CARVED);
+                        entries.add(ModBlocks.ACACIA_PAPER_LANTERN);
+
                         entries.add(ModBlocks.DARK_OAK_BEAM);
+                        entries.add(ModBlocks.VERTICAL_DARK_OAK_PLANKS);
+                        entries.add(ModBlocks.DARK_OAK_PLANKS_CARVED);
+                        entries.add(ModBlocks.DARK_OAK_PAPER_LANTERN);
+
                         entries.add(ModBlocks.MANGROVE_BEAM);
+                        entries.add(ModBlocks.VERTICAL_MANGROVE_PLANKS);
+                        entries.add(ModBlocks.MANGROVE_PLANKS_CARVED);
+                        entries.add(ModBlocks.MANGROVE_PAPER_LANTERN);
+
                         entries.add(ModBlocks.CHERRY_BEAM);
-                        entries.add(ModBlocks.WARPED_BEAM);
+                        entries.add(ModBlocks.VERTICAL_CHERRY_PLANKS);
+                        entries.add(ModBlocks.CHERRY_PLANKS_CARVED);
+                        entries.add(ModBlocks.CHERRY_PAPER_LANTERN);
+
                         entries.add(ModBlocks.CRIMSON_BEAM);
+                        entries.add(ModBlocks.VERTICAL_CRIMSON_PLANKS);
+                        entries.add(ModBlocks.CRIMSON_PLANKS_CARVED);
+                        entries.add(ModBlocks.CRIMSON_SHROOM_LANTERN);
+
+                        entries.add(ModBlocks.WARPED_BEAM);
+                        entries.add(ModBlocks.VERTICAL_WARPED_PLANKS);
+                        entries.add(ModBlocks.WARPED_PLANKS_CARVED);
+                        entries.add(ModBlocks.WARPED_SHROOM_LANTERN);
+
+                        entries.add(ModBlocks.VERTICAL_BAMBOO_PLANKS);
+                        entries.add(ModBlocks.BAMBOO_PAPER_LANTERN);
 
                         entries.add(ModBlocks.STAINED_STONE_LIGHT_15);
                         entries.add(ModBlocks.STAINED_STONE_LIGHT_30);

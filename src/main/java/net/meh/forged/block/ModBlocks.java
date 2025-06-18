@@ -551,38 +551,38 @@ public class ModBlocks {
     public static final Block OAK_BEAM = registerBlock("oak_beam",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
     public static final Block SPRUCE_BEAM = registerBlock("spruce_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG).strength(2.0F, 3.0F)));
     public static final Block BIRCH_BEAM = registerBlock("birch_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.BIRCH_LOG).strength(2.0F, 3.0F)));
     public static final Block JUNGLE_BEAM = registerBlock("jungle_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.JUNGLE_LOG).strength(2.0F, 3.0F)));
     public static final Block ACACIA_BEAM = registerBlock("acacia_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.ACACIA_LOG).strength(2.0F, 3.0F)));
     public static final Block DARK_OAK_BEAM = registerBlock("dark_oak_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.DARK_OAK_LOG).strength(2.0F, 3.0F)));
     public static final Block MANGROVE_BEAM = registerBlock("mangrove_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.MANGROVE_LOG).strength(2.0F, 3.0F)));
     public static final Block CHERRY_BEAM = registerBlock("cherry_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LOG).strength(2.0F, 3.0F)));
     public static final Block MAPLE_BEAM = registerBlock("maple_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.MAPLE_LOG).strength(2.0F, 3.0F)));
     public static final Block BLEAK_BEAM = registerBlock("bleak_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.BLEAK_LOG).strength(2.0F, 3.0F)));
     public static final Block FIR_BEAM = registerBlock("fir_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.FIR_LOG).strength(2.0F, 3.0F)));
     public static final Block PALM_BEAM = registerBlock("palm_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.PALM_LOG).strength(2.0F, 3.0F)));
     public static final Block BAYOU_BEAM = registerBlock("bayou_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.BAYOU_LOG).strength(2.0F, 3.0F)));
     public static final Block WISTERIA_BEAM = registerBlock("wisteria_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.WISTERIA_LOG).strength(2.0F, 3.0F)));
     public static final Block BAOBAB_BEAM = registerBlock("baobab_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(ModBlocks.BAOBAB_LOG).strength(2.0F, 3.0F)));
     public static final Block CRIMSON_BEAM = registerBlock("crimson_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_STEM).strength(2.0F, 3.0F)));
     public static final Block WARPED_BEAM = registerBlock("warped_beam",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2.0F, 3.0F)));
-
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.WARPED_STEM).strength(2.0F, 3.0F)));
+//stone
     public static final Block STAINED_STONE_LIGHT_15 = registerBlock("stained_stone_light_15",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
 
@@ -609,6 +609,116 @@ public class ModBlocks {
 
     public static final Block STAINED_STONE_DARK_105 = registerBlock("stained_stone_dark_105",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
+//variants of vanilla items (carved, etc.)
+    public static final Block VERTICAL_OAK_PLANKS = registerBlock("vertical_oak_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_SPRUCE_PLANKS = registerBlock("vertical_spruce_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_BIRCH_PLANKS = registerBlock("vertical_birch_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_JUNGLE_PLANKS = registerBlock("vertical_jungle_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_ACACIA_PLANKS = registerBlock("vertical_acacia_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_DARK_OAK_PLANKS = registerBlock("vertical_dark_oak_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_MANGROVE_PLANKS = registerBlock("vertical_mangrove_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_CHERRY_PLANKS = registerBlock("vertical_cherry_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_CRIMSON_PLANKS = registerBlock("vertical_crimson_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_WARPED_PLANKS = registerBlock("vertical_warped_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(2.0F, 3.0F)));
+    public static final Block VERTICAL_BAMBOO_PLANKS = registerBlock("vertical_bamboo_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block OAK_PAPER_LANTERN = registerBlock("oak_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block SPRUCE_PAPER_LANTERN = registerBlock("spruce_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block BIRCH_PAPER_LANTERN = registerBlock("birch_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block JUNGLE_PAPER_LANTERN = registerBlock("jungle_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block ACACIA_PAPER_LANTERN = registerBlock("acacia_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block DARK_OAK_PAPER_LANTERN = registerBlock("dark_oak_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block MANGROVE_PAPER_LANTERN = registerBlock("mangrove_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block CHERRY_PAPER_LANTERN = registerBlock("cherry_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block CRIMSON_SHROOM_LANTERN = registerBlock("crimson_shroom_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block WARPED_SHROOM_LANTERN = registerBlock("warped_shroom_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block MAPLE_PAPER_LANTERN = registerBlock("maple_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block BLEAK_PAPER_LANTERN = registerBlock("bleak_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block FIR_PAPER_LANTERN = registerBlock("fir_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block PALM_PAPER_LANTERN = registerBlock("palm_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block BAYOU_PAPER_LANTERN = registerBlock("bayou_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block WISTERIA_PAPER_LANTERN = registerBlock("wisteria_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block FUNGAL_PAPER_LANTERN = registerBlock("fungal_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block BAOBAB_PAPER_LANTERN = registerBlock("baobab_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block BAMBOO_PAPER_LANTERN = registerBlock("bamboo_paper_lantern",
+            new Block(FabricBlockSettings.copyOf(Blocks.GLOWSTONE).strength(0.3F).luminance(15).strength(2.0F, 3.0F).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+    public static final Block OAK_PLANKS_CARVED = registerBlock("oak_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block SPRUCE_PLANKS_CARVED = registerBlock("spruce_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block BIRCH_PLANKS_CARVED = registerBlock("birch_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block JUNGLE_PLANKS_CARVED = registerBlock("jungle_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block ACACIA_PLANKS_CARVED = registerBlock("acacia_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block DARK_OAK_PLANKS_CARVED = registerBlock("dark_oak_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block MANGROVE_PLANKS_CARVED = registerBlock("mangrove_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block CHERRY_PLANKS_CARVED = registerBlock("cherry_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block CRIMSON_PLANKS_CARVED = registerBlock("crimson_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).strength(2.0F, 3.0F)));
+
+    public static final Block WARPED_PLANKS_CARVED = registerBlock("warped_planks_carved",
+            new Block(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(2.0F, 3.0F)));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

@@ -39,6 +39,48 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WARPED_BEAM);
         addDrop(ModBlocks.CRIMSON_BEAM);
 
+        addDrop(ModBlocks.VERTICAL_OAK_PLANKS);
+        addDrop(ModBlocks.VERTICAL_SPRUCE_PLANKS);
+        addDrop(ModBlocks.VERTICAL_BIRCH_PLANKS);
+        addDrop(ModBlocks.VERTICAL_JUNGLE_PLANKS);
+        addDrop(ModBlocks.VERTICAL_ACACIA_PLANKS);
+        addDrop(ModBlocks.VERTICAL_DARK_OAK_PLANKS);
+        addDrop(ModBlocks.VERTICAL_MANGROVE_PLANKS);
+        addDrop(ModBlocks.VERTICAL_CHERRY_PLANKS);
+        addDrop(ModBlocks.VERTICAL_CRIMSON_PLANKS);
+        addDrop(ModBlocks.VERTICAL_WARPED_PLANKS);
+        addDrop(ModBlocks.VERTICAL_BAMBOO_PLANKS);
+        addDrop(ModBlocks.OAK_PAPER_LANTERN);
+        addDrop(ModBlocks.SPRUCE_PAPER_LANTERN);
+        addDrop(ModBlocks.BIRCH_PAPER_LANTERN);
+        addDrop(ModBlocks.JUNGLE_PAPER_LANTERN);
+        addDrop(ModBlocks.ACACIA_PAPER_LANTERN);
+        addDrop(ModBlocks.DARK_OAK_PAPER_LANTERN);
+        addDrop(ModBlocks.MANGROVE_PAPER_LANTERN);
+        addDrop(ModBlocks.CHERRY_PAPER_LANTERN);
+        addDrop(ModBlocks.CRIMSON_SHROOM_LANTERN);
+        addDrop(ModBlocks.WARPED_SHROOM_LANTERN);
+        addDrop(ModBlocks.MAPLE_PAPER_LANTERN);
+        addDrop(ModBlocks.BLEAK_PAPER_LANTERN);
+        addDrop(ModBlocks.FIR_PAPER_LANTERN);
+        addDrop(ModBlocks.PALM_PAPER_LANTERN);
+        addDrop(ModBlocks.BAYOU_PAPER_LANTERN);
+        addDrop(ModBlocks.WISTERIA_PAPER_LANTERN);
+        addDrop(ModBlocks.BAOBAB_PAPER_LANTERN);
+        addDrop(ModBlocks.BAMBOO_PAPER_LANTERN);
+        addDrop(ModBlocks.FUNGAL_PAPER_LANTERN);
+
+        addDrop(ModBlocks.OAK_PLANKS_CARVED);
+        addDrop(ModBlocks.SPRUCE_PLANKS_CARVED);
+        addDrop(ModBlocks.BIRCH_PLANKS_CARVED);
+        addDrop(ModBlocks.JUNGLE_PLANKS_CARVED);
+        addDrop(ModBlocks.ACACIA_PLANKS_CARVED);
+        addDrop(ModBlocks.DARK_OAK_PLANKS_CARVED);
+        addDrop(ModBlocks.MANGROVE_PLANKS_CARVED);
+        addDrop(ModBlocks.CHERRY_PLANKS_CARVED);
+        addDrop(ModBlocks.CRIMSON_PLANKS_CARVED);
+        addDrop(ModBlocks.WARPED_PLANKS_CARVED);
+
         addDrop(ModBlocks.MAPLE_LOG);
         addDrop(ModBlocks.STRIPPED_MAPLE_LOG);
         addDrop(ModBlocks.MAPLE_WOOD);

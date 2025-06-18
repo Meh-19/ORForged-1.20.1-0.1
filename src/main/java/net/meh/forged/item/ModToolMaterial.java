@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    PLATINUM(3,1561, 8.0F, 3.0F, 14, () -> Ingredient.ofItems(ModItems.PLATINUM));
+    PLATINUM(3,500, 7.0F, 2.2F, 12, () -> Ingredient.ofItems(ModItems.PLATINUM));
 
     private final int miningLevel;
     private final int itemDurability;
