@@ -80,7 +80,62 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSingleton(ModBlocks.CRIMSON_PLANKS_CARVED, TexturedModel.CUBE_COLUMN);
         blockStateModelGenerator.registerSingleton(ModBlocks.WARPED_PLANKS_CARVED, TexturedModel.CUBE_COLUMN);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_DRIPSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_MUD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SANDY_LIMESTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_LIMESTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PACKED_DIRT);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PACKED_SAND);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PACKED_RED_SAND);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILT);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIED_SILT);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILT_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_SILT);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_NETHER_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_BLUE_NETHER_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TAINTED_NETHER_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_RED_NETHER_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUL_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_SOUL_SAND);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_BASALT_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_BASALT_TILES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CUT_POLISHED_BASALT);
 
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_ANDESITE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_DIORITE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_GRANITE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_DRIPSTONE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_LIMESTONE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_STONE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_MUD, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_SILT_BRICKS, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_BLUE_NETHER_BRICKS, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_RED_NETHER_BRICKS, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_SOUL_BRICKS, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.POSSESSED_CHISELED_SOUL_BRICKS, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_POLISHED_BASALT, TexturedModel.CUBE_COLUMN);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.SLATE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SLATE_BRICKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_SLATE, TexturedModel.CUBE_COLUMN);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_SLATE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIAMOND_BRICK);
+        blockStateModelGenerator.registerLog(ModBlocks.DIAMOND_PILLAR).log(ModBlocks.DIAMOND_PILLAR);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.EMERALD_BRICK);
+        blockStateModelGenerator.registerLog(ModBlocks.EMERALD_PILLAR).log(ModBlocks.EMERALD_PILLAR);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GOLD_BRICK);
+        blockStateModelGenerator.registerLog(ModBlocks.GOLD_PILLAR).log(ModBlocks.GOLD_PILLAR);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRON_BRICK);
+        blockStateModelGenerator.registerLog(ModBlocks.IRON_PILLAR).log(ModBlocks.IRON_PILLAR);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHERITE_BRICK);
+        blockStateModelGenerator.registerLog(ModBlocks.NETHERITE_PILLAR).log(ModBlocks.NETHERITE_PILLAR);
 
         maplePool.stairs(ModBlocks.MAPLE_STAIRS);
         maplePool.slab(ModBlocks.MAPLE_SLAB);

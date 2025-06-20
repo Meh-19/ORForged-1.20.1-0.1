@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.meh.forged.ForgedMod;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -19,6 +20,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
+    //<editor-fold desc="Ore">
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(5.0F, 6.0F).sounds(BlockSoundGroup.STONE)));
     public static final Block PLATINUM_BRICKS = registerBlock("platinum_bricks",
@@ -40,7 +42,134 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
+    //</editor-fold>
 
+    //<editor-fold desc="Earth">
+    public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANDESITE)));
+    public static final Block CHISELED_ANDESITE = registerBlock("chiseled_andesite",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANDESITE)));
+
+    public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIORITE)));
+    public static final Block CHISELED_DIORITE = registerBlock("chiseled_diorite",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIORITE)));
+
+    public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRANITE)));
+    public static final Block CHISELED_GRANITE = registerBlock("chiseled_granite",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRANITE)));
+
+    public static final Block CHISELED_STONE = registerBlock("chiseled_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)));
+    public static final Block CHISELED_DRIPSTONE = registerBlock("chiseled_dripstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)));
+    public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.DRIPSTONE_BLOCK)));
+
+    public static final Block CHISELED_MUD = registerBlock("chiseled_mud",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block POLISHED_MUD = registerBlock("polished_mud",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block SLATE = registerBlock("slate",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block SLATE_BRICKS = registerBlock("slate_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block CHISELED_SLATE = registerBlock("chiseled_slate",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block POLISHED_SLATE = registerBlock("polished_slate",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block LIMESTONE = registerBlock("limestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block SANDY_LIMESTONE_BRICKS = registerBlock("sandy_limestone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block CHISELED_LIMESTONE = registerBlock("chiseled_limestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block POLISHED_LIMESTONE = registerBlock("polished_limestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block PACKED_DIRT = registerBlock("packed_dirt",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block PACKED_SAND = registerBlock("packed_sand",
+            new Block(FabricBlockSettings.copyOf(Blocks.SAND)));
+    public static final Block PACKED_RED_SAND = registerBlock("packed_red_sand",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SAND)));
+
+    public static final Block SILT = registerBlock("silt",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));
+    public static final Block DRIED_SILT = registerBlock("dried_silt",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    public static final Block SILT_BRICKS = registerBlock("silt_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    public static final Block CHISELED_SILT_BRICKS = registerBlock("chiseled_silt_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    public static final Block POLISHED_SILT = registerBlock("polished_silt",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+
+    public static final Block BLUE_NETHER_BRICKS = registerBlock("blue_nether_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
+    public static final Block CHISELED_BLUE_NETHER_BRICKS = registerBlock("chiseled_blue_nether_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
+    public static final Block POLISHED_BLUE_NETHER_BRICKS = registerBlock("polished_blue_nether_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
+
+    public static final Block TAINTED_NETHER_BRICKS = registerBlock("tainted_nether_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
+    public static final Block CHISELED_RED_NETHER_BRICKS = registerBlock("chiseled_red_nether_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
+    public static final Block POLISHED_RED_NETHER_BRICKS = registerBlock("polished_red_nether_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
+
+    public static final Block SOUL_BRICKS = registerBlock("soul_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    public static final Block POLISHED_SOUL_SAND = registerBlock("polished_soul_sand",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    public static final Block CHISELED_SOUL_BRICKS = registerBlock("chiseled_soul_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+    public static final Block POSSESSED_CHISELED_SOUL_BRICKS = registerBlock("possessed_chiseled_soul_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+
+    public static final Block POLISHED_BASALT_BRICKS = registerBlock("polished_basalt_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_BASALT)));
+    public static final Block POLISHED_BASALT_TILES = registerBlock("polished_basalt_tiles",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_BASALT)));
+    public static final Block CUT_POLISHED_BASALT = registerBlock("cut_polished_basalt",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_BASALT)));
+    public static final Block CHISELED_POLISHED_BASALT = registerBlock("chiseled_polished_basalt",
+            new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_BASALT)));
+    //</editor-fold>
+
+    //<editor-fold desc="Minerals">
+    public static final Block DIAMOND_BRICK = registerBlock("diamond_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
+    public static final Block DIAMOND_PILLAR = registerBlock("diamond_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.DIAMOND_BLUE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+    public static final Block EMERALD_BRICK = registerBlock("emerald_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
+    public static final Block EMERALD_PILLAR = registerBlock("emerald_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.EMERALD_GREEN).instrument(Instrument.BIT).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+    public static final Block GOLD_BRICK = registerBlock("gold_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
+    public static final Block GOLD_PILLAR = registerBlock("gold_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.GOLD).instrument(Instrument.BELL).requiresTool().strength(3.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+    public static final Block IRON_BRICK = registerBlock("iron_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block IRON_PILLAR = registerBlock("iron_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.IRON_GRAY).instrument(Instrument.IRON_XYLOPHONE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+    public static final Block NETHERITE_BRICK = registerBlock("netherite_brick",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block NETHERITE_PILLAR = registerBlock("netherite_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).mapColor(MapColor.BLACK).requiresTool().strength(50.0F, 1200.0F).sounds(BlockSoundGroup.NETHERITE)));
+    //</editor-fold>
+
+    //<editor-fold desc="Logs">
     public static final Block MAPLE_LOG = registerBlock("maple_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
     public static final Block MAPLE_WOOD = registerBlock("maple_wood",
@@ -719,6 +848,7 @@ public class ModBlocks {
 
     public static final Block WARPED_PLANKS_CARVED = registerBlock("warped_planks_carved",
             new Block(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(2.0F, 3.0F)));
+    //</editor-fold>
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

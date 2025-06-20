@@ -3,6 +3,7 @@ package net.meh.forged.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.meh.forged.block.ModBlocks;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -22,6 +23,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PLATINUM_BRICKS)
                 .add(ModBlocks.PLATINUM_PILLAR)
 
+                .add(ModBlocks.DIAMOND_BRICK)
+                .add(ModBlocks.DIAMOND_PILLAR)
+                .add(ModBlocks.EMERALD_BRICK)
+                .add(ModBlocks.EMERALD_PILLAR)
+                .add(ModBlocks.GOLD_BRICK)
+                .add(ModBlocks.GOLD_PILLAR)
+                .add(ModBlocks.IRON_BRICK)
+                .add(ModBlocks.IRON_PILLAR)
+                .add(ModBlocks.NETHERITE_BRICK)
+                .add(ModBlocks.NETHERITE_PILLAR)
+
+
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
@@ -36,7 +49,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STAINED_STONE_DARK_60)
                 .add(ModBlocks.STAINED_STONE_DARK_75)
                 .add(ModBlocks.STAINED_STONE_DARK_90)
-                .add(ModBlocks.STAINED_STONE_DARK_105);
+                .add(ModBlocks.STAINED_STONE_DARK_105)
+                .add(ModBlocks.ANDESITE_BRICKS)
+                .add(ModBlocks.CHISELED_ANDESITE)
+                .add(ModBlocks.DIORITE_BRICKS)
+                .add(ModBlocks.CHISELED_DIORITE)
+                .add(ModBlocks.GRANITE_BRICKS)
+                .add(ModBlocks.CHISELED_GRANITE)
+                .add(ModBlocks.CHISELED_STONE)
+                .add(ModBlocks.DRIPSTONE_BRICKS)
+                .add(ModBlocks.CHISELED_DRIPSTONE)
+                .add(ModBlocks.POLISHED_DRIPSTONE)
+                .add(ModBlocks.CHISELED_MUD)
+                .add(ModBlocks.POLISHED_MUD)
+                .add(ModBlocks.SLATE)
+                .add(ModBlocks.SLATE_BRICKS)
+                .add(ModBlocks.CHISELED_SLATE)
+                .add(ModBlocks.POLISHED_SLATE)
+                .add(ModBlocks.LIMESTONE)
+                .add(ModBlocks.LIMESTONE_BRICKS)
+                .add(ModBlocks.SANDY_LIMESTONE_BRICKS)
+                .add(ModBlocks.CHISELED_LIMESTONE)
+                .add(ModBlocks.POLISHED_LIMESTONE)
+                .add(ModBlocks.DRIED_SILT)
+                .add(ModBlocks.SILT_BRICKS)
+                .add(ModBlocks.CHISELED_SILT_BRICKS)
+                .add(ModBlocks.POLISHED_SILT)
+                .add(ModBlocks.BLUE_NETHER_BRICKS)
+                .add(ModBlocks.CHISELED_BLUE_NETHER_BRICKS)
+                .add(ModBlocks.POLISHED_BLUE_NETHER_BRICKS)
+                .add(ModBlocks.TAINTED_NETHER_BRICKS)
+                .add(ModBlocks.CHISELED_RED_NETHER_BRICKS)
+                .add(ModBlocks.POLISHED_RED_NETHER_BRICKS)
+                .add(ModBlocks.SOUL_BRICKS)
+                .add(ModBlocks.POLISHED_SOUL_SAND)
+                .add(ModBlocks.CHISELED_SOUL_BRICKS)
+                .add(ModBlocks.POSSESSED_CHISELED_SOUL_BRICKS)
+                .add(ModBlocks.POLISHED_BASALT_BRICKS)
+                .add(ModBlocks.POLISHED_BASALT_TILES)
+                .add(ModBlocks.CUT_POLISHED_BASALT)
+                .add(ModBlocks.CHISELED_POLISHED_BASALT);
+
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.OAK_BEAM)
@@ -311,6 +364,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRIMSON_PLANKS_CARVED)
                 .add(ModBlocks.WARPED_PLANKS_CARVED);
 
+                getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+                .add(ModBlocks.PACKED_DIRT)
+                .add(ModBlocks.PACKED_SAND)
+                .add(ModBlocks.PACKED_RED_SAND)
+                .add(ModBlocks.SILT);
+
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.ORANGE_MAPLE_LEAVES)
@@ -327,7 +386,40 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WISTERIA_FLOWERS_WHITE)
                 .add(ModBlocks.BAOBAB_LEAVES);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.ANDESITE_BRICKS)
+                .add(ModBlocks.CHISELED_ANDESITE)
+                .add(ModBlocks.DIORITE_BRICKS)
+                .add(ModBlocks.CHISELED_DIORITE)
+                .add(ModBlocks.GRANITE_BRICKS)
+                .add(ModBlocks.CHISELED_GRANITE)
+                .add(ModBlocks.CHISELED_STONE)
+                .add(ModBlocks.DRIPSTONE_BRICKS)
+                .add(ModBlocks.CHISELED_DRIPSTONE)
+                .add(ModBlocks.POLISHED_DRIPSTONE)
+                .add(ModBlocks.CHISELED_MUD)
+                .add(ModBlocks.POLISHED_MUD)
+                .add(ModBlocks.SLATE)
+                .add(ModBlocks.SLATE_BRICKS)
+                .add(ModBlocks.CHISELED_SLATE)
+                .add(ModBlocks.POLISHED_SLATE)
+                .add(ModBlocks.LIMESTONE)
+                .add(ModBlocks.LIMESTONE_BRICKS)
+                .add(ModBlocks.SANDY_LIMESTONE_BRICKS)
+                .add(ModBlocks.CHISELED_LIMESTONE)
+                .add(ModBlocks.POLISHED_LIMESTONE)
+                .add(ModBlocks.DRIED_SILT)
+                .add(ModBlocks.SILT_BRICKS)
+                .add(ModBlocks.CHISELED_SILT_BRICKS)
+                .add(ModBlocks.POLISHED_SILT)
+                .add(ModBlocks.SOUL_BRICKS)
+                .add(ModBlocks.POLISHED_SOUL_SAND)
+                .add(ModBlocks.CHISELED_SOUL_BRICKS)
+                .add(ModBlocks.POSSESSED_CHISELED_SOUL_BRICKS)
+                .add(ModBlocks.POLISHED_BASALT_BRICKS)
+                .add(ModBlocks.POLISHED_BASALT_TILES)
+                .add(ModBlocks.CUT_POLISHED_BASALT)
+                .add(ModBlocks.CHISELED_POLISHED_BASALT)
                 .add(ModBlocks.PLATINUM_ORE)
                 .add(ModBlocks.RUBY_ORE);
 

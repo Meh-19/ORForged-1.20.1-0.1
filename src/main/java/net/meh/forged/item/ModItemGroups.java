@@ -368,6 +368,62 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STAINED_STONE_DARK_75);
                         entries.add(ModBlocks.STAINED_STONE_DARK_90);
                         entries.add(ModBlocks.STAINED_STONE_DARK_105);
+                        entries.add(ModBlocks.ANDESITE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_ANDESITE);
+                        entries.add(ModBlocks.DIORITE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_DIORITE);
+                        entries.add(ModBlocks.GRANITE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_GRANITE);
+                        entries.add(ModBlocks.CHISELED_STONE);
+                        entries.add(ModBlocks.DRIPSTONE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_DRIPSTONE);
+                        entries.add(ModBlocks.POLISHED_DRIPSTONE);
+                        entries.add(ModBlocks.CHISELED_MUD);
+                        entries.add(ModBlocks.POLISHED_MUD);
+                        entries.add(ModBlocks.SLATE);
+                        entries.add(ModBlocks.SLATE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_SLATE);
+                        entries.add(ModBlocks.POLISHED_SLATE);
+                        entries.add(ModBlocks.LIMESTONE);
+                        entries.add(ModBlocks.LIMESTONE_BRICKS);
+                        entries.add(ModBlocks.SANDY_LIMESTONE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_LIMESTONE);
+                        entries.add(ModBlocks.POLISHED_LIMESTONE);
+                        entries.add(ModBlocks.PACKED_DIRT);
+                        entries.add(ModBlocks.PACKED_SAND);
+                        entries.add(ModBlocks.PACKED_RED_SAND);
+                        entries.add(ModBlocks.SILT);
+                        entries.add(ModBlocks.DRIED_SILT);
+                        entries.add(ModBlocks.SILT_BRICKS);
+                        entries.add(ModBlocks.CHISELED_SILT_BRICKS);
+                        entries.add(ModBlocks.POLISHED_SILT);
+                        entries.add(ModBlocks.BLUE_NETHER_BRICKS);
+                        entries.add(ModBlocks.CHISELED_BLUE_NETHER_BRICKS);
+                        entries.add(ModBlocks.POLISHED_BLUE_NETHER_BRICKS);
+                        entries.add(ModBlocks.TAINTED_NETHER_BRICKS);
+                        entries.add(ModBlocks.CHISELED_RED_NETHER_BRICKS);
+                        entries.add(ModBlocks.POLISHED_RED_NETHER_BRICKS);
+                        entries.add(ModBlocks.SOUL_BRICKS);
+                        entries.add(ModBlocks.POLISHED_SOUL_SAND);
+                        entries.add(ModBlocks.CHISELED_SOUL_BRICKS);
+                        entries.add(ModBlocks.POSSESSED_CHISELED_SOUL_BRICKS);
+                        entries.add(ModBlocks.POLISHED_BASALT_BRICKS);
+                        entries.add(ModBlocks.POLISHED_BASALT_TILES);
+                        entries.add(ModBlocks.CUT_POLISHED_BASALT);
+                        entries.add(ModBlocks.CHISELED_POLISHED_BASALT);
+
+                        entries.add(ModBlocks.DIAMOND_BRICK);
+                        entries.add(ModBlocks.DIAMOND_PILLAR);
+                        entries.add(ModBlocks.EMERALD_BRICK);
+                        entries.add(ModBlocks.EMERALD_PILLAR);
+                        entries.add(ModBlocks.GOLD_BRICK);
+                        entries.add(ModBlocks.GOLD_PILLAR);
+                        entries.add(ModBlocks.IRON_BRICK);
+                        entries.add(ModBlocks.IRON_PILLAR);
+                        entries.add(ModBlocks.NETHERITE_BRICK);
+                        entries.add(ModBlocks.NETHERITE_PILLAR);
+
+
 
                     }).build());
 
